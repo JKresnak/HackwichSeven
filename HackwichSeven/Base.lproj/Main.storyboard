@@ -26,16 +26,15 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wc9-ci-64A">
-                                <rect key="frame" x="80" y="208" width="234" height="63"/>
+                                <rect key="frame" x="80" y="127" width="234" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <connections>
-                                    <action selector="ButtonPress1:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rc6-aV-bot"/>
-                                    <action selector="setLabelButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="41x-cy-6YF"/>
+                                    <action selector="setButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="PHl-fs-jjv"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fgP-VQ-Sn9">
-                                <rect key="frame" x="80" y="469" width="233" height="151"/>
+                                <rect key="frame" x="80" y="198" width="233" height="151"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                 <nil key="textColor"/>

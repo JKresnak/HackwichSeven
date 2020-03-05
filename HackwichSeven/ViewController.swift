@@ -21,8 +21,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-    @IBAction func setLabelButtonPressed(_ sender: Any) {
-        let userInputText = TextField.text
+ 
+    @IBAction func setButtonPressed(_ sender: Any) {
+    let userInputText = TextField.text
         self.DisplayLabel.text = userInputText
     }
 }
